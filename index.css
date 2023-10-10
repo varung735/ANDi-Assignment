@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #FEFEFE;
+}
+
+/* Navbar style sheet Begins Here*/
+
+nav {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-heading {
+    color: #765AB8;
+}
+
+.nav-content {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.link {
+    padding: 0 2% 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    color: #765AB8;
+}
+
+.link:hover {
+    color: #FEFEFE;
+    background-color: #3076E0;
+    border-radius: 15px;
+}
+
+/* Navbar style sheet Ends Here */
+
+/* Banner Style sheet Begins Here */
+
+.banner {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-text {
+    padding-left: 5%;
+}
+
+.banner-heading {
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.banner-p {
+    font-weight: 100;
+    line-height: 25px;
+}
+
+/* Banner Style sheet Ends Here */
+
+/* Services Style sheet Begins Here */
+
+.heading {
+    margin-bottom: 3%;
+    font-size: 40px;
+    text-align: center;
+    color: #765AB8;
+}
+
+.service-content-holder {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sc-image-div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sc-image {
+    height: 100%;
+    width: 100%;
+}
+
+.sc-text {
+    width: 50%;
+    height: 100%;
+}
+
+.sc-text-heading {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.sc-text-content {
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+/* Services Style sheet Ends Here */
+
+/* Client Style Sheet Begins Here */
+
+#clients {
+    padding: 0% 4% 5% 4%;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.client-images {
+    height: 120px;
+    width: 120px;
+}
+
+/* Client Style Sheet Ends Here */
+
+/* Testimonials Style Sheet Begins Here */
+
+#testimonials {
+    padding: 0% 0% 4% 0%;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.testimonial {
+    width: 25%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E1E1E1;
+    border-radius: 15px;
+}
+
+.testimonial-div {
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.dt-text {
+    text-align: center;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.testimonial-profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-pic {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.tp-image {
+    padding: 1% 0 1% 0;
+    height: 30px;
+    width: 30px;
+}
+
+.tp-name {
+    font-size: 1.5em;
+}
+
+/* Testimonials Style Sheet Ends Here */
+
+/* About-Us Style Sheet Begins Here */
+
+.about-us {
+    padding: 1%;
+}
+
+.about-us-text {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.values {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.value {
+    padding: 2%;
+    height: 180px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    background-color: #765AB8;
+    border-radius: 15px;
+}
+
+.value-icon {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEFEFE;
+    border-radius: 50%;
+}
+
+.value-img {
+    height: 30px;
+    width: 30px;
+}
+
+.value-heading {
+    color: #FEFEFE;
+}
+
+/* About-Us Style Sheet Ends Here */
+
+/* Footer Style sheet Begins Here */
+
+footer {
+    background-color: #765AB8;
+    color: #FEFEFE;
+}
+
+.contact-us {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-div {
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.detail-img {
+    height: 22px;
+    width: 22px;
+}
+
+.detail-heading {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social {
+    height: 40px;
+    width: 40px;
+}
+
+.copyright {
+    padding: 0.5%;
+    background-color: #FEFEFE;
+    color: #000000;
+}
+
+.copyright-heading {
+    font-size: 17px;
+    font-weight: 100;
+}
+
+/* Footer Style sheet Ends Here */
