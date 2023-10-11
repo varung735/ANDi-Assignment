@@ -5,25 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./index.css">
-    <script src="./index.js"></script>
     <title>ANDi Software Solutions</title>
 </head>
 <body>
     <!-- Navbar Begins Here -->
     <nav>
-        <div class="nav-logo">
-            <h1 class="nav-heading">ANDi Software Solutions</h1>
+        <div class="nav-holder">
+            <div class="nav-logo">
+                <h1 class="nav-heading">ANDi Software Solutions</h1>
+            </div>
+            <div class="nav-content">
+                <a href="#about-us" class="link">About Us</a>
+                <a href="#services" class="link">Services</a>
+                <a href="#clients" class="link">Our Clients</a>
+                <a href="#testimonials" class="link">Testimonials</a>
+                <a href="#contact-us" class="link">Contact Us</a>
+            </div>
+            <img src="./assets/bars.svg" alt="bars" class="bars" id="bars" />
         </div>
-        <div class="nav-content">
-            <a href="#about-us" class="link">About Us</a>
-            <a href="#services" class="link">Services</a>
-            <a href="#clients" class="link">Our Clients</a>
-            <a href="#testimonials" class="link">Testimonials</a>
-            <a href="#contact-us" class="link">Contact Us</a>
+        <div class="nav-responsive res-nav-links" id="res-nav-links">
+            <a href="#about-us" class="res-link">About Us</a>
+            <a href="#services" class="res-link">Services</a>
+            <a href="#clients" class="res-link">Our Clients</a>
+            <a href="#testimonials" class="res-link">Testimonials</a>
+            <a href="#contact-us" class="res-link">Contact Us</a>
         </div>
     </nav>
     <!-- Navbar Ends Here -->
-
+    
     <!-- Main Content Begins Here -->
     <main>
         <!-- Banner Begins Here -->
@@ -36,14 +45,14 @@
                     Foster Prosperity, and Effortlessly Optimize Your Workflow.
                 </p>
             </div>
-
+            
             <!-- Banner Image -->
             <div class="banner-img">
-                <img src="./assets/banner.png" alt="banner-img" style="height: 650px;width: 900px;"/>
+                <img src="./assets/banner.png" alt="banner-image" class="banner-image" />
             </div>
         </div>
         <!-- Banner Ends Here -->
-
+        
         <!-- Services Section Begins Here -->
         <div id="services">
             <h1 class="heading" style="margin-bottom: 0.5%;">Services</h1>
@@ -65,7 +74,7 @@
             </div>
 
             <!-- service two -->
-            <div class="service-content-holder">
+            <div class="service-content-holder service-two">
                 <!-- Image -->
                 <div class="sc-text">
                     <h1 class="sc-text-heading">App Development</h1>
@@ -192,7 +201,7 @@
                         <h1 class="tp-name">Sam Morris</h1>
                     </div>
                 </div>
-
+                
                 <!-- Testimonial -->
                 <div class="testimonial">
                     <!-- text -->
@@ -231,7 +240,7 @@
             </div>
         </div>
         <!-- Testimonials Section Ends Here -->
-
+        
         <!-- About Us Section Begins Here -->
         <div id="about-us">
             <h1 class="heading" style="margin-bottom: 1%;">About Us</h1>
@@ -325,7 +334,7 @@
 
         <!-- Footer Begins Here -->
         <div class="footer-links">
-
+            
             <!-- Contact Us -->
             <div class="contact-us">
                 <!-- contact details -->
@@ -339,7 +348,7 @@
                         <h1 class="detail-heading">+91-7015574125, +91-8810385787</h1>
                     </div>
                 </div>
-
+                
                 <!-- Social links -->
                 <div class="social-links">
                     <a href="#" class="social-link"><img src="./assets/instagram.svg" alt="social" class="social"></a>
@@ -352,7 +361,7 @@
 
         </div>
         <!-- Footer Ends Here -->
-
+        
         <!-- Copyright Div Begins Here -->
         <div class="copyright">
             <h1 class="copyright-heading">Copyright 2021 © ANDi Software Solutions . All Rights reserved</h1>
@@ -360,5 +369,6 @@
         <!-- Copyright Div Ends Here -->
     </footer>
     <!-- Footer Ends Here -->
+    <script src="./index.js"></script>
 </body>
 </html>
